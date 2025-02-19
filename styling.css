@@ -1,0 +1,22 @@
+ul.nav{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#28112B;
+}
+li.nav {
+  float:right;
+}
+li.nav a {}
+body{
+  background:-color: #DC5C6E0
+}
+h1 {
+  font-family: "Garamond", serif;
+  font-size: 2em;
+  text-align:center;
+  color: pink;
+  padding: 14px 16px;
+  display:inline-block
+}
