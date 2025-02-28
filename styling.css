@@ -1,22 +1,63 @@
-ul.nav{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  overflow:hidden;
-  background-color:#28112B;
+ul.nav {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #E8C2CA;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  right: 0;
+  width: 98%;
 }
+
 li.nav {
-  float:right;
+  float: left;
 }
-li.nav a {}
-body{
-  background:-color: #28112B 
-}
-h1 {
+
+
+li.nav a {
   font-family: "Garamond", serif;
-  font-size: 2em;
-  text-align:center;
-  color: pink;
-  padding: 14px 16px;
-  display:inline-block
+  font-size: 1.5em;
+  display: block;
+  color: white;
+  text-align: center;
+  color: ;
+  padding: 16px 20px;
+  text-decoration: underline;
+}
+
+li.nav a:hover {
+  background-color: #BEE6CE;
+}
+
+ul.nodot {
+  list-style-type: none;
+  margin-left: 9%;
+}
+header. Melania-Digital Resume
+  h1 {
+  letter-spacing: 5xp;
+  padding-top: 30%;
+  text-align: center;
+}
+p.two{
+  border-style: groove;
+  border-width: thick;
+}
+
+body {
+  background-color: #D0E9DA;
+}
+
+
+
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px pink;
+  line-height: 6;
+  text-decoration-line: underline;
+}
+
+P {
+  text-align: center;
+  font-size: 1.5em;
 }
