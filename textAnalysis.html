@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Melania Sergeyeva - Text Analysis</title>
+    <meta name="description" content="Text Analysis Project for DIGIT 100">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styling.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <ul class="nav">
+    <li class="nav"><a href="index.html">Home</a></li>
+    <li class="nav"><a href="Resume.html">Resume</a></li>
+    <li class="nav"><a href="textAnalysis.html">Text Analysis</a></li>
+    <li class="nav"><a href="mapping.html">Mapping</a></li>
+    <li class="nav"><a href="ai.html">AI Explorations</a></li>
+    <li class="nav"><a href="twine.html">Twine Game</a></li>
+    <li class="nav"><a href="gameDev.html">Game Development</a></li>
+    <li class="nav"><a href="contact.html">Contact Info</a></li>
+  </ul>
+  <h1>Text Analysis Project</h1>
+  <h2>Text Anaylis: Exploring My Corpus</h2>
+  <p>To start, my corpus focuses on these classic detective novels: The Woman in White, The Moonstone, The Valley of Fear, and The Return of Sherlock Holmes. The goal of this was to uncover recurring themes, specific texts, and characteristics, and using both manual encoding and Voyant’s visualization tools. Throughout this approach, I explored the vocabulary, sentence structures, and each text, and also finding specific words associated with each novel. This analysis will be discussing information from the encoding process and Voyant analysis.</p>
+  <p>For the encoding process, the novel that i chose to encode was "The Women in White" During this process,I started by encoding the texts in plain text format. I got rid any unnecessary words, correcting punctuation, and correcting any typos. The encoding also included a lot of markups using XML. These included names, people, places, emotions, symbolism, definition, and more. Adding these markups transformed the plain text to a structured and well organized text. This helps to see more in depth with the text that would go unnoticed if not marked up. Here is an example of this:
+    <code>
+  For my own poor part, the fading summer left me out of health, out
+  of spirits, and, if the truth must be told, out of money as well.
+  During the past year I had not managed my professional resources as
+  carefully as usual; and my &lt;definition&gt;extravagance&lt;/definition&gt; now limited me to the prospect
+  of spending the autumn economically between my &lt;people&gt;mother’s&lt;/people&gt; cottage at
+  &lt;place name=&quot;Hampstead&quot;&gt;Hampstead&lt;/place&gt; and my own chambers in town.
+      </code>
+  <p>By marking up terms like extravagance, mother, and Hampstead, I could focus on specific attributes and relationships, making it easier to track their significance across the text. This encoded version of the text gave me a more organized way of reviewing the novel, revealing patterns that would have otherwise gone unnoticed.For example, marking up the word Hampstead as a place, helps see how the physical setting was shown throughout the text symbolically and how it played a role in the storyline. Over time, it became clear that locations like Hampstead weren't just geographical, they were associated with moments of transition, or reflection. Also, marking up mother under people brought attention to the familial relationships that shape the emotional dynamics of the story, even when these figures aren't central to the plot.</p>
+  <p>After encoding the corpus, I uploaded the four texts to Voyant for more of an exploration. The word cloud visualization was an effective way to spot the most frequent terms used across all four texts. Terms such as "mr," "said," and "time" were the most frequent words through the texts. For example, "mr" had 2822 occurrences through the four texts. Then, "said" had 2550 occurrences, while "time" had 1538 occurrences. These were among the most frequent words, which indicates these words relay more on manners, heavy dialogue, and urgency of time which reflects key ideas in the detective novels.</p>
+  <p>Here is an example of the embedded word cloud from Voyant.<p>
+  <iframe style='width: 487px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Cirrus/?corpus=d4c2a7023a32cb12e6dd4a7650b15a6f'></iframe>
+  <p>In addition, using the the trend visualization helped see the frequency of words over time, like mr, said, time, man, and sir across the four texts. From this data, it's clear that Mr. and SIR show consistent trends, emphasizing the formalities and manners present in the texts. For example, The Moonstone, mr has the highest relative frequency at 0.0082, indicating the frequent use of formal address, consistent with the Victorian setting and the formal tone of the text. The use of titles and forms of address is important in defining social hierarchies, which is a recurring feature in these novels. Next, The Return of Sherlock Holmes is close with 0.0036, reflecting the similarly formal nature of the narrative. Then, The Valley of Fear and The Woman in White show lower frequencies, 0.0031 and 0.0024, which could indicate less emphasis on formal address in comparison to the other texts, although it is still significant because of the formal social norms of the time.</p>
+  <p>Here is an example of the embedded trends from Voyant.<p>
+    <iframe style='width: 487px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Trends/?query=mr&query=said&query=time&query=man&query=sir&corpus=d4c2a7023a32cb12e6dd4a7650b15a6f'></iframe>
+    <p>Lastly I looked at the phrase’s visualization in Voyant. It provided good insights into recurring phrases across the texts which reflects key moments or theme patterns within the narratives. For example, one of the phrases that stands out is "when the devotion of my whole heart and soul and strength will give you a moment’s happiness or spare you a moment’s sorrow", which appears with a frequency of 2 occurrences in a given context. This is one of the longer phrases throughout the text. From this the visualization itself presents these phrases in a list, organized by frequency, making it easy to spot phrases that occur with significant regularity. Moving forward, the phrases visualization in Voyant also highlighted expressions like "if your heart is as big as your body and your soul as fine as your face then I’d ask for nothing better said mcmurdo". The tool presents this phrase alongside other frequently occurring ones. By analyzing the frequency and distribution of this phrase, Voyant made it clear how recurring expressions could shape the narrative's pacing and emphasize important character moments. This provided me with a different way of interpreting patterns, repeated phrases and contributed to the flow and emotional tone of the narrative.</p>
+    <p>Here is an example of the embedded phrases from Voyant.<p>
+    <iframe style='width: 487px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Phrases/?corpus=d4c2a7023a32cb12e6dd4a7650b15a6f'></iframe>
+<p>By encoding data and using the Voyant visualizations, I was able to cross-reference findings from both methods. For example, the encoding process showed the relationship between specific characters, emotions, and places, while the Voyant tools had a broader view of repetitive themes and words across all texts. Both of these methods provided a deeper insight of how language is used to convey power dynamics, social norms, and character motivations in these detective novels. The trends in titles like "Mr." and "Sir", and the use of dialogue-heavy phrases, highlighted the formality of Victorian society and highlighted many more themes which showed a better overview and insight in these detective novels. Overall, these tools, encoding and Voyant, helped me to interpret the novels in a different way.<p>
+<h1>The Texts In Corpus</h1>
+<h2>The Women In White</h2>
+<p><iframe style='width: 486px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Reader/?skipToDocId=2f43cb05821aefb78194b2f28459d7ae&corpus=e7d38fd5d818ea73ecf58680f23eb766'></iframe></p>
+<h2>The Moonstone<h2>
+<p><iframe style='width: 486px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Reader/?skipToDocId=ce04de3a3e3056badb6e7f118cc5c9bf&corpus=e7d38fd5d818ea73ecf58680f23eb766'></iframe><p>
+  <h2>The Valley of Fear<h2>
+    <iframe style='width: 486px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Reader/?skipToDocId=d5685c321dd96aa7e0d13115328e77cb&corpus=e7d38fd5d818ea73ecf58680f23eb766'></iframe>
+    <h2>The Return of Sherlock Holmes<h2>
+      <iframe style='width: 486px; height: 387px;' src='https://voyant.lincsproject.ca/tool/Reader/?skipToDocId=18b50c3f4ad3ce2bec240befa9b58d15&corpus=e7d38fd5d818ea73ecf58680f23eb766'></iframe>
+
+
+<body>
+</html>
