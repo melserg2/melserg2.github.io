@@ -30,7 +30,7 @@ function elizaStep() {
 	}
 	else if (userinput != '') {
 		var usr = 'YOU:   ' + userinput;
-		var rpl ='ELIZA: ' + eliza.transform(userinput);
+		var rpl ='Witty: ' + eliza.transform(userinput);
 		elizaLines.push(usr);
 		elizaLines.push(rpl);
 		// display nicely
@@ -47,7 +47,7 @@ function elizaStep() {
 	}
 	else if (elizaLines.length == 0) {
 		// no input and no saved lines -> output initial
-		var initial = 'ELIZA: ' + eliza.getInitial();
+		var initial = 'Witty: ' + eliza.getInitial();
 		elizaLines.push(initial);
 		f.e_display.value = initial + '\n';
 	}
@@ -63,7 +63,7 @@ function elizaStep() {
 
 <CENTER>
 <P>&nbsp;</P>
-<H3>Eliza</H3>
+<H3>Witty</H3>
 <TABLE BORDER="0" CELLSPACING="10" CELLPADDING="0">
 <FORM NAME="e_form" onsubmit="elizaStep();return false">
 <TR><TD COLSPAN="2"><TEXTAREA NAME="e_display" COLS="60" ROWS="20"></TEXTAREA></TD></TR>
@@ -77,4 +77,3 @@ function elizaStep() {
 
 <P>&nbsp;</P>
 <P ALIGN="center">Adapted from <a href="https://www.masswerk.at/elizabot/">Elizabot.js</a></p>
-	 
